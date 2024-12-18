@@ -1,0 +1,146 @@
+``<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxima Business Solutions</title>
+    <style>
+        body {
+            font-family: Open Sans, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2E4053;
+            color: #FFFFFF;
+            padding: 1em;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header nav ul li {
+            margin-right: 20px;
+        }
+
+        header nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+
+        section {
+            background-color: #F7F7F7;
+            padding: 2em;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2E4053;
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        button {
+            background-color: #34C759;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3e8e41;
+        }
+
+        footer {
+            background-color: #2E4053;
+            color: #FFFFFF;
+            padding: 1em;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Proxima Business Solutions</h1>
+            <p>"Welcome to Proxima Business Solutions, your trusted partner for innovative business solutions. Our team of experts is dedicated to helping you achieve your goals. Learn more about our services."</p>
+            <button>Learn More</button>
+        </section>
+        <section id="about">
+            <h1>About Us</h1>
+            <p>
+"At Proxima Business Solutions, we're passionate about helping businesses thrive. Our mission is to provide innovative solutions that drive growth and success. Meet our team of experts."</p>
+        </section>
+        <section id="services">
+            <h1>Our Services</h1>
+            <div class="services-container">
+                <div class="service">
+                    <h2>Business Consulting</h2>
+                    <ul>
+                        <li><strong>Strategy Development</strong>: Help businesses develop and implement effective strategies to achieve their goals.</li>
+                        <li><strong>Operational Improvement</strong>: Analyze and optimize business operations to increase efficiency and reduce costs.</li>
+                        <li><strong>Financial Management</strong>: Provide guidance on financial planning, budgeting, and forecasting to help businesses make informed decisions.</li>
+                        <li><strong>Human Resources Management</strong>: Offer support on HR-related matters, such as recruitment, talent management, and employee engagement.</li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <h2>Digital Marketing</h2>
+                    <ul>
+                        <li><strong>Digital Marketing Strategy</strong>: Develop a customized digital marketing plan to help businesses reach their target audience and achieve their marketing goals.</li>
+                        <li><strong>Website Design and Development</strong>: Create professional websites that are user-friendly, mobile-responsive, and optimized for search engines.</li>
+                        <li><strong>Social Media Management</strong>: Manage social media presence, create engaging content, and develop social media advertising campaigns.</li>
+                        <li><strong>Email Marketing</strong>: Design and implement email marketing campaigns to help businesses nurture leads, build customer loyalty, and drive sales.</li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <h2>Technology Solutions</h2>
+                    <ul>
+                        <li><strong>IT Infrastructure Management</strong>: Provide support on IT infrastructure, including network setup, hardware and software installation, and technical troubleshooting.</li>
+                        <li><strong>Cybersecurity Solutions</strong>: Offer cybersecurity services, including threat assessment, vulnerability management, and incident response.</li>
+                        <li><strong>Data Analytics</strong>: Help businesses make data-driven decisions by providing data analytics services, including data visualization, reporting, and predictive analytics.</li>
+                        <li><strong>Cloud Services</strong>: Provide guidance on cloud computing, including cloud migration, cloud security, and cloud management.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Get in Touch</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>            
+                <button>Send</button>
+            </form>
+<div id="chatbot-container">
+  <button id="chatbot-button">Talk to Our Chatbot</button>
+  <input id="user-input" type="text" placeholder="Type a message...">
+  <div id="chatbot-response"></div>
